@@ -36,7 +36,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
 					onClick={toggleOpen}
 				>
 					<AiOutlineMenu />
-					<Avatar />
+					<Avatar src={currentUser?.image} />
 				</div>
 			</div>
 			{isOpen && (
